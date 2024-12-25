@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Discoveries</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            padding: 2rem;
+            text-align: center;
+            background-color: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #eee;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            color: #666;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .post {
+            margin-bottom: 4rem;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 0.5s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .post img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .post img:hover {
+            transform: scale(1.02);
+        }
+
+        .post h2 {
+            margin: 1rem 0;
+            font-size: 1.8rem;
+        }
+
+        .post p {
+            color: #666;
+        }
+
+        .date {
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #f8f8f8;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wine Discoveries</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#wines">Wines</a>
+            <a href="#food">Food</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <article class="post">
+            <img src="/api/placeholder/800/600" alt="Wine tasting">
+            <h2>2019 Château Margaux</h2>
+            <div class="date">December 24, 2024</div>
+            <p>A remarkable find from Bordeaux's premier cru estate. The 2019 vintage shows exceptional balance between power and elegance, with notes of black currant, violet, and cedar...</p>
+        </article>
+
+        <article class="post">
+            <img src="/api/placeholder/800/600" alt="Food pairing">
+            <h2>Perfect Pairing: Risotto & Barolo</h2>
+            <div class="date">December 23, 2024</div>
+            <p>Tonight's dinner featured a wild mushroom risotto paired with a 2018 Barolo from Piedmont. The earthy notes in both the dish and wine created a harmonious...</p>
+        </article>
+
+        <article class="post">
+            <img src="/api/placeholder/800/600" alt="Wine cellar">
+            <h2>Cellar Additions</h2>
+            <div class="date">December 22, 2024</div>
+            <p>Recent additions to the cellar include several bottles from Burgundy's outstanding 2020 vintage. These wines show great aging potential...</p>
+        </article>
+    </div>
+
+    <footer>
+        <p>© 2024 Wine Discoveries</p>
+    </footer>
+</body>
+</html>
