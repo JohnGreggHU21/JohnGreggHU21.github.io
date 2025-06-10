@@ -53,3 +53,34 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+/* Gallery Styles */
+.gallery {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  color: #2e1d1f;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%) opacity(0.8);
+  border-radius: 4px;
+  transition: filter 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  filter: none;
+  opacity: 1;
+}
