@@ -53,34 +53,3 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
-.gallery {
-  padding: 2rem;
-  text-align: center;
-  background-color: #f6f2ed;
-}
-
-.gallery h2 {
-  font-family: Georgia, serif;
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
-  color: #2e1d1f;
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.gallery-grid img {
-  width: 100%;
-  filter: grayscale(100%);
-  border-radius: 6px;
-  transition: filter 0.3s ease;
-}
-
-.gallery-grid img:hover {
-  filter: grayscale(0%);
-}
