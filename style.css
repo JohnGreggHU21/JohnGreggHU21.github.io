@@ -117,3 +117,7 @@ h1 {
 .gallery-grid img:hover {
   transform: scale(1.05);
 }
+.gallery-grid img {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
