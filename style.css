@@ -92,3 +92,34 @@ h1 {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
+.bottle-gallery {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.bottle-gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.05em;
+  color: #000;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  align-items: end;
+}
+
+.gallery-grid img {
+  max-height: 280px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
