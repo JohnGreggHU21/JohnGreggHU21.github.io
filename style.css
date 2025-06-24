@@ -295,3 +295,38 @@ h1 {
 .featured-excerpt .read-more:hover {
   text-decoration: underline;
 }
+
+.excerpt-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  background-color: #fff6f6;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  border-left: 5px solid #7a0026; /* Burgundy */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.excerpt-text {
+  flex: 1;
+}
+
+.excerpt-text blockquote {
+  font-style: italic;
+  color: #7a0026;
+  margin: 1rem 0;
+}
+
+.excerpt-image {
+  flex: 1;
+}
+
+.excerpt-image img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  max-height: 300px;
+}
