@@ -372,3 +372,33 @@ h1 {
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
+
+.section-divider {
+  border-top: 1px solid #9E2146; /* Burgundy tone */
+  width: 60%;
+  margin: 4rem auto 2rem auto;
+}
+
+.editorial-pairing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  flex-wrap: wrap; /* Mobile-friendly */
+}
+
+.editorial-image {
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.editorial-caption {
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #333;
+  max-width: 250px;
+  line-height: 1.5;
+}
