@@ -1,4 +1,12 @@
-/* Typography + Color Theme Update */
+:root {
+  --font-primary: 'Cormorant Garamond', serif;
+  --font-accent: 'Playfair Display', serif;
+  --color-black: #000000;
+  --color-burgundy: #541e24;
+  --color-wine-red: #6c002e;
+  --color-subtext: #444444;
+}
+* Typography + Color Theme Update */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap');
 body {
   font-family: 'Cormorant Garamond', serif;
