@@ -157,7 +157,6 @@ h1 {
 
 /* === HERO IMAGE SECTION === */
 .hero {
-  background-image: url("Images/Champagne.jpg");
   background-size: cover;
   background-position: center;
   height: 70vh;
