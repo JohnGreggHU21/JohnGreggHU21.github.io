@@ -121,3 +121,110 @@ h1 {
   filter: none !important;
   -webkit-filter: none !important;
 }
+/* === HERO IMAGE SECTION === */
+.hero {
+  background-image: url("Images/Champagne.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-text {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #2e2e2e;
+  padding: 2rem 3rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.overlay-text h1 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.overlay-text p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* === HERO IMAGE SECTION === */
+.hero {
+  background-image: url("Images/Champagne.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-text {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #2e2e2e;
+  padding: 2rem 3rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.overlay-text h1 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.overlay-text p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* === FEATURED DISPATCH SECTION === */
+.featured-dispatch {
+  padding: 3rem 2rem;
+  background-color: #f8f8f8;
+  text-align: center;
+  border-top: 2px solid #6c002e;
+  border-bottom: 2px solid #6c002e;
+}
+
+.featured-dispatch h2 {
+  font-size: 2rem;
+  color: #6c002e;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.featured-dispatch h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.featured-dispatch p {
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #6c002e;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
