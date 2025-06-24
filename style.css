@@ -9,9 +9,9 @@
 * Typography + Color Theme Update */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap');
 body {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-primary);
   background-color: white;
-  color: black;
+  color: var(--color-black);
   margin: 0;
   padding: 0;
 }
@@ -36,10 +36,10 @@ nav {
 }
 nav a {
   margin: 0 1rem;
-  color: #541e24;
+  color: var(--color-burgundy);
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.25rem; 
+  font-family: var(--font-primary);
 }
 
 main {
@@ -104,7 +104,10 @@ h1 {
   letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
+  color: var(--color-burgundy);
+  font-family: var(--font-primary);
 }
+
 .bottle-gallery {
   padding: 4rem 2rem;
   text-align: center;
@@ -236,11 +239,13 @@ h1 {
 
 .read-more {
   text-decoration: none;
-  color: #6c002e;
+  color: var(--color-wine-red);
   font-weight: bold;
   font-size: 1rem;
+  font-family: var(--font-primary);
 }
 
 .read-more:hover {
   text-decoration: underline;
+  color: var(--color-burgundy);
 }
